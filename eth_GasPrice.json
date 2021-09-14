@@ -1,0 +1,6 @@
+{
+  "id": 7970374821238,
+  "jsonrpc": "2.0",
+  "method": "eth_gasPrice",
+  "params": []
+}

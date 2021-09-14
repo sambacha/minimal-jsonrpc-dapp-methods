@@ -1,0 +1,6 @@
+{
+  "id": 4851171300773312,
+  "jsonrpc": "2.0",
+  "method": "eth_blockNumber",
+  "params": []
+}

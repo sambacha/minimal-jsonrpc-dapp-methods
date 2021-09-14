@@ -1,0 +1,8 @@
+{
+  "id": 2512203835,
+  "jsonrpc": "2.0",
+  "method": "eth_getTransactionReceipt",
+  "params": [
+    "0xe7dd14a7e15a8767733261054615a8604eef7c9f26c921f0418afd2905e93a88"
+  ]
+}
