@@ -2,7 +2,7 @@
 
 > list of RPC methods a node must implement for a dapp to be usable
 
-
+```
 eth_Call.json
 eth_GasPrice.json
 eth_blockNumber.json
@@ -13,6 +13,7 @@ eth_protocolVersion.json - fallback
 eth_sendRawTransaction.json
 eth_sendTransaction_LEGACY.json
 net_version.json - fallback
+```
 
 ### source
 
