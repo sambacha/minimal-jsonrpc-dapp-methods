@@ -3,16 +3,16 @@
 Multistep process, basically:
 
 1: POST: net_version  
-> response jsonrpc
-2: POST: eth_blockNumber  
-> response jsonrpc
-3: GET: EtherScan Account TxList CHECK  
-> response json
-> EtherScan Response: `no transactions found`  
-4: POST: eth_chainId  
-> response jsonrpc
-5: OPTIONS  
-> response.OPTIONS HTTP
+&> response jsonrpc <br>
+2: POST: eth_blockNumber   <br>
+&> response jsonrpc <br>
+3: GET: EtherScan Account TxList CHECK   <br>
+&> response json <br>
+&> EtherScan Response: `no transactions found`   <br>
+4: POST: eth_chainId   <br>
+&> response jsonrpc <br>
+5: OPTIONS   <br>
+&> response.OPTIONS HTTP <br>
 
 
 ```har
