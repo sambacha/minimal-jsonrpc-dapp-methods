@@ -16,6 +16,11 @@ eth_sendTransaction_LEGACY.json
 net_version.json - fallback
 ```
 
+## Additional 
+
+`eth_signTypedData` [see eip712, https://eips.ethereum.org/EIPS/eip-712]
+
+
 ### Source
 
 mainnet.infura.io_09-14-2021-14-02-17.har
