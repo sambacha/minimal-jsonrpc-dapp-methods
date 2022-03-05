@@ -16,6 +16,26 @@ eth_sendTransaction_LEGACY.json
 net_version.json - fallback
 ```
 
+### Block Data
+>These would not be affected, as it's not but block data:
+
+```
+genEthGetTransactionReceipt
+genEthGetBlockByNumber
+genEthBlockNumber
+genEthGetTransactionByHash
+genEthGetLogs
+```
+
+### Sstate Aata
+> these should be improved by snapshot:
+```
+genEthCall
+genEthGetBalance
+genEthGetTransactionCount
+genEthGetCode
+```
+
 ## Additional 
 
 `eth_signTypedData` [see eip712, https://eips.ethereum.org/EIPS/eip-712]
