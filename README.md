@@ -1,5 +1,15 @@
 # minimal rpc exposed methods
 
+
+<pre>
+- handles the following RPC methods:
+   eth_getTransactionCount (pending only)
+
+- observes the following RPC methods:
+   eth_sendRawTransaction
+   evm_revert (to clear the nonce cache)
+</pre>
+
 > list of RPC methods a node must implement for a dapp to be usable
 
 ```
