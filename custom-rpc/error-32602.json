@@ -1,0 +1,9 @@
+{
+  "jsonrpc": "2.0",
+  "id": 0,
+  "error": {
+    "code": -32602,
+    "message": "Invalid method parameter(s).",
+    "data": "Invalid number of arguments specified. Expected: 1..1."
+  }
+}
